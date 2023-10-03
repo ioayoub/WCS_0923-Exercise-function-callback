@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #f5bc42;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1em;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3em;
+}
+
+#instructions {
+  margin-top: 2em;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgray;
+  padding: 0.5em;
+}
+
+#text-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5em;
+  gap: .5em;
+}
+
+#texttorevert {
+  height: 2em;
+  width: 25%;
+}
+
+#result {
+  text-align: center;
+  margin-top: 2em;
+}
